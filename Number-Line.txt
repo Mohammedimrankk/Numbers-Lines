@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int n,i,total,a;
+    total=0;
+    printf("Enter the number of lines = ");
+    scanf("%d",&n);
+    if (n>0)
+    {
+    for ( i = 1; i <= (3*n); i++)
+    {
+        if (n<=0 || n==0)
+        {
+            printf("Wrong value entered.");
+        }
+        
+    i=i+total;
+    printf("%d\t%d\t%d\t \n",i,i+1,i+2);
+    i=i+2; 
+    }
+    }
+    else{
+        printf("Wrong value entered!");
+    }
+    
+}
